@@ -183,3 +183,22 @@ a {
 .foot .container h4 {
     padding: 10px 0 0 0;
 }
+
+@media (max-width: 896px) {
+
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services .box {
+        flex: 0 0 100%;
+    }
+    .foot .box {
+        flex: 0 0 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .foot .container .last {
+        display: none;
+    }
+}
