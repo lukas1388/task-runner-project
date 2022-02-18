@@ -124,3 +124,22 @@ a {
     border: 3px solid gold;
     border-radius: 50%;
 }
+
+/* Portfolio */
+
+.portfolio {
+    padding: 120px 0;
+    text-align: center;
+    background: #F7F7F7;
+}
+.portfolio .content-wrapper {
+    justify-content: space-between;
+}
+.portfolio .box {
+    background: #fff;
+    margin: 30px auto;
+}
+.portfolio .box p{
+    margin: -10px;
+    padding-bottom: 30px;
+}
