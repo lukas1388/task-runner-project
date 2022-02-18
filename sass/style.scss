@@ -20,6 +20,9 @@ a {
     border-radius: 3px;
     font-weight: bold;
 }
+.font-s {
+    font-size: 18px;
+}
 
 /* Navigation */
 
@@ -142,4 +145,41 @@ a {
 .portfolio .box p{
     margin: -10px;
     padding-bottom: 30px;
+}
+
+/* Footer */
+
+.foot {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.foot i {
+    background: #000;
+    font-size: 18px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.foot ul {
+    list-style-type: none;
+}
+.foot li {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 5px;
+}
+.foot .container {
+    display: flex;
+    justify-content: center;
+}
+.foot .box {
+    flex: 0 0 33.333%;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.foot .container h4 {
+    padding: 10px 0 0 0;
 }
