@@ -149,12 +149,12 @@ a {
 
 /* Footer */
 
-.foot {
+.footer {
     margin: 30px auto;
     text-align: center;
     font-family: 'Montserrat';
 }
-.foot i {
+.footer i {
     background: #000;
     font-size: 18px;
     color: #fff;
@@ -163,24 +163,25 @@ a {
     line-height: 40px;
     border-radius: 50%;
 }
-.foot ul {
+.footer ul {
     list-style-type: none;
 }
-.foot li {
+.footer li {
     display: inline-block;
     font-size: 0;
     margin: 0 5px;
 }
-.foot .container {
+.footer .container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
-.foot .box {
+.footer .box {
     flex: 0 0 33.333%;
     padding: 0 5px;
-    margin: 0 auto;
 }
-.foot .container h4 {
+.footer .container h3 {
+    font-size: 14px;
     padding: 10px 0 0 0;
 }
 
@@ -193,12 +194,19 @@ a {
     .services .box {
         flex: 0 0 100%;
     }
-    .foot .box {
+    .footer .box {
         flex: 0 0 50%;
         padding: 0;
         margin: 0;
     }
-    .foot .container .last {
+    .footer .container .last {
         display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 490px) {
+  
+    .footer .box {
+        flex: 0 0 100%;
+        margin: 10px 0;
     }
 }
